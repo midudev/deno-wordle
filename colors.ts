@@ -4,7 +4,8 @@ import {
   bgYellow,
   bold,
   white,
-} from "colors";
+//} from "colors";
+} from "https://deno.land/std@0.125.0/fmt/colors.ts";
 
 const colorMethods = {
   green: bgGreen,
