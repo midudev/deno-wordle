@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "deno bundle pokedle.ts > ./dist/pokedle.js",
+    "run": "deno run --allow-net=pokeapi.co --allow-env=ARCEUS_MODE pokedle.ts",
+    "lint": "deno lint",
+    "fmt": "deno fmt",
+    "dev": "deno run --watch --allow-write --allow-env=ARCEUS_MODE --allow-net=pokeapi.co pokedle.ts"
+  }
+}

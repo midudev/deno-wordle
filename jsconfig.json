@@ -1,0 +1,8 @@
+{
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["import-prefix-missing"]
+    }
+  },
+}
